@@ -23,7 +23,7 @@
 
 - **Languages**:
     
-    ![C#](https://icon-icons.com/es/icono/csharp-llano-logo/146577)
+    ![C#](https://www.flaticon.com/free-icon/c-sharp_6132221?term=c+sharp&page=1&position=1&origin=tag&related_id=6132221)
     ![Java](https://img.shields.io/badge/C++%20-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
 <br>   
