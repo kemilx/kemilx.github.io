@@ -23,7 +23,7 @@
 
 - **Languages**:
     
-    ![C#](https://www.flaticon.com/free-icon/c-sharp_6132221?term=c+sharp&page=1&position=1&origin=tag&related_id=6132221)
+    ![C#](https://img.shields.io/badge/-Java-007396?logo=java&logoColor=white&style=flat)
     ![Java](https://img.shields.io/badge/C++%20-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
 <br>   
