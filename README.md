@@ -8,8 +8,6 @@
 	
 ## **About me**
 
-<br>
-
 - A passionate Self-taught Back-end developer
 - Enjoys coding personal projects in spare time
 - Learning Web Development, C#, and Java on my own
