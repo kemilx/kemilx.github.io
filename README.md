@@ -14,7 +14,7 @@
 - A passionate Self-taught Back-end developer
 - Enjoys coding personal projects in spare time
 - Learning Web Development, C#, and Java on my own
-- Personal website [link](https://github.com/kemilx/LibreriaWeb.git)
+- Currently working on my personal project [link](https://github.com/kemilx/LibreriaWeb.git)
 
 <br><br>
 
