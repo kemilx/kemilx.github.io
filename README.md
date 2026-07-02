@@ -11,7 +11,7 @@
 * Building projects with C#, .NET, SQL and relational databases
 * Interested in REST APIs, database connections and debugging
 * Currently improving my skills in backend architecture and clean project structure
-* Working on academic and personal projects such as [LibreriaWeb](https://github.com/kemilx/LibreriaWeb.git)
+* Working on academic and personal projects
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> <b>Skills</b>
 
