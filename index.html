@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portafolio de Kemil Martínez, Junior Backend Developer enfocado en C#, .NET, SQL y APIs REST.">
+  <meta name="theme-color" content="#08111f">
+  <title>Kemil Martínez · Backend Developer</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio">
+      <span class="brand-mark">K</span>
+      <span>Kemil<span class="accent">.</span></span>
+    </a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav">Menú</button>
+    <nav id="main-nav" aria-label="Navegación principal">
+      <a href="#proyectos">Proyectos</a>
+      <a href="#stack">Stack</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a class="nav-cta" href="#contacto">Hablemos</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="inicio">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> Disponible para oportunidad junior</p>
+        <h1>Backend con estructura.<br><span>Datos con propósito.</span></h1>
+        <p class="hero-lead">Soy Kemil Martínez, desarrollador backend junior y estudiante de Desarrollo de Software en el ITLA. Construyo soluciones con C#, .NET, SQL y APIs REST.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#proyectos">Explorar proyectos <span aria-hidden="true">↘</span></a>
+          <a class="button secondary" href="https://github.com/kemilx" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="Diagrama de una arquitectura backend">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="system-card api-card">
+          <span class="system-label">API</span>
+          <strong>ASP.NET Core</strong>
+          <small>requests → rules → response</small>
+        </div>
+        <div class="system-card db-card">
+          <span class="system-label">DATA</span>
+          <strong>SQL</strong>
+          <small>structured · relational</small>
+        </div>
+        <div class="system-card test-card">
+          <span class="system-label">VERIFY</span>
+          <strong>1,698</strong>
+          <small>local tests · Gateway</small>
+        </div>
+        <div class="core-node">
+          <span>KM</span>
+          <small>backend</small>
+        </div>
+      </div>
+
+      <div class="hero-metrics reveal" aria-label="Resumen profesional">
+        <div><strong>21</strong><span>repositorios públicos</span></div>
+        <div><strong>5</strong><span>proyectos seleccionados</span></div>
+        <div><strong>C#</strong><span>lenguaje principal</span></div>
+      </div>
+    </section>
+
+    <section class="section projects" id="proyectos">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">01 / trabajo seleccionado</p>
+          <h2>Proyectos que explican<br>cómo pienso.</h2>
+        </div>
+        <p>No solo qué tecnología usé, sino qué problema organicé, cómo separé responsabilidades y qué validé.</p>
+      </div>
+
+      <article class="flagship reveal">
+        <div class="flagship-copy">
+          <div class="project-meta"><span>PROYECTO PRINCIPAL</span><span>LOCAL · DATOS SINTÉTICOS</span></div>
+          <h3>Gateway de privacidad y telemetría</h3>
+          <p>Gateway experimental en .NET 10 y YARP que inspecciona respuestas JSON, protege campos sensibles mediante políticas y expone telemetría local sin registrar el contenido protegido.</p>
+          <div class="project-highlights">
+            <div><span>01</span><p>Arquitectura con gateway, API sintética, pruebas y harness de carga.</p></div>
+            <div><span>02</span><p>Políticas de Mask, Block y Observe con validación estricta.</p></div>
+            <div><span>03</span><p>1,698 pruebas locales y contratos de telemetría documentados.</p></div>
+          </div>
+          <ul class="tags" aria-label="Tecnologías de Gateway">
+            <li>.NET 10</li><li>ASP.NET Core</li><li>YARP</li><li>OpenTelemetry</li><li>xUnit</li>
+          </ul>
+          <a class="text-link" href="https://github.com/kemilx/Gateway" target="_blank" rel="noreferrer">Ver repositorio <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="architecture" aria-label="Flujo simplificado del proyecto Gateway">
+          <div class="arch-title"><span></span><span></span><span></span><b>gateway.flow</b></div>
+          <div class="arch-flow">
+            <div class="arch-node"><small>01</small><strong>Cliente</strong><span>request</span></div>
+            <div class="arch-arrow">→</div>
+            <div class="arch-node active"><small>02</small><strong>Gateway</strong><span>inspect · mask</span></div>
+            <div class="arch-arrow">→</div>
+            <div class="arch-node"><small>03</small><strong>API</strong><span>upstream</span></div>
+          </div>
+          <div class="telemetry-lines">
+            <span style="--w: 88%"></span><span style="--w: 62%"></span><span style="--w: 76%"></span><span style="--w: 46%"></span>
+          </div>
+          <div class="arch-status"><span class="status-dot"></span> suite local: 1698 / 1698 PASS</div>
+        </div>
+      </article>
+
+      <div class="project-grid">
+        <article class="project-card reveal" data-kind="arquitectura">
+          <div class="project-number">02</div>
+          <p class="project-type">Arquitectura por capas</p>
+          <h3>LibreriaWeb</h3>
+          <p>Sistema académico para gestión de biblioteca, separado en API, Application, Domain, Infrastructure, Persistence, Web y Test.</p>
+          <ul class="tags"><li>C#</li><li>.NET</li><li>EF Core</li><li>SQL Server</li></ul>
+          <a class="text-link" href="https://github.com/kemilx/LibreriaWeb" target="_blank" rel="noreferrer">Código <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="project-card reveal" data-kind="datos">
+          <div class="project-number">03</div>
+          <p class="project-type">Datos y ETL</p>
+          <h3>SalesAnalytics</h3>
+          <p>Solución académica para análisis de ventas con módulos de API, dominio, persistencia, ETL y presentación web.</p>
+          <ul class="tags"><li>C#</li><li>.NET</li><li>SQL</li><li>ETL</li></ul>
+          <a class="text-link" href="https://github.com/kemilx/SalesAnalytics" target="_blank" rel="noreferrer">Código <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="project-card reveal" data-kind="academico">
+          <div class="project-number">04</div>
+          <p class="project-type">Gestión académica</p>
+          <h3>Gestión Escolar</h3>
+          <p>Práctica orientada al modelado de entidades, registros académicos, programación orientada a objetos y manejo estructurado de datos.</p>
+          <ul class="tags"><li>C#</li><li>.NET</li><li>SQL</li><li>POO</li></ul>
+          <a class="text-link" href="https://github.com/kemilx/GestionEscolar" target="_blank" rel="noreferrer">Código <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="project-card reveal" data-kind="academico">
+          <div class="project-number">05</div>
+          <p class="project-type">Lógica de negocio</p>
+          <h3>Sistema de Nómina</h3>
+          <p>Aplicación académica para practicar gestión de empleados, cálculos básicos, validaciones y organización de procesos administrativos.</p>
+          <ul class="tags"><li>C#</li><li>.NET</li><li>SQL</li><li>Validación</li></ul>
+          <a class="text-link" href="https://github.com/kemilx/SistemaNomina3" target="_blank" rel="noreferrer">Código <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section process" aria-labelledby="process-title">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">02 / proceso</p>
+          <h2 id="process-title">De requisito a<br>evidencia.</h2>
+        </div>
+        <p>Mi forma de trabajar busca que cada decisión tenga un lugar claro y una forma de comprobarse.</p>
+      </div>
+      <div class="process-grid">
+        <article class="reveal"><span>01</span><h3>Modelar</h3><p>Entiendo los datos, las reglas y los límites antes de escribir la solución.</p></article>
+        <article class="reveal"><span>02</span><h3>Separar</h3><p>Organizo API, dominio, persistencia y presentación con responsabilidades visibles.</p></article>
+        <article class="reveal"><span>03</span><h3>Verificar</h3><p>Pruebo escenarios normales, errores y casos límite; documento lo que todavía no está probado.</p></article>
+      </div>
+    </section>
+
+    <section class="section stack" id="stack">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">03 / stack</p>
+          <h2>Herramientas con las<br>que construyo.</h2>
+        </div>
+        <p>Un stack backend en crecimiento, con bases sólidas en datos, depuración y estructura de aplicaciones.</p>
+      </div>
+      <div class="stack-board reveal">
+        <div class="stack-column"><span>LANG</span><h3>Lenguajes</h3><p>C#</p><p>SQL</p></div>
+        <div class="stack-column"><span>BACK</span><h3>Backend</h3><p>.NET</p><p>ASP.NET Core</p><p>REST APIs</p></div>
+        <div class="stack-column"><span>DATA</span><h3>Datos</h3><p>SQL Server</p><p>PostgreSQL</p><p>MySQL</p></div>
+        <div class="stack-column"><span>TOOLS</span><h3>Herramientas</h3><p>Git / GitHub</p><p>Visual Studio</p><p>pgAdmin</p></div>
+        <div class="stack-column learning"><span>NEXT</span><h3>Aprendiendo</h3><p>Docker</p><p>Jira</p></div>
+      </div>
+    </section>
+
+    <section class="section about" id="sobre-mi">
+      <div class="about-card reveal">
+        <div class="monogram" aria-hidden="true">KM</div>
+        <div>
+          <p class="eyebrow">04 / sobre mí</p>
+          <h2>Curiosidad técnica,<br>sin atajos.</h2>
+          <p>Estudio Desarrollo de Software en el Instituto Tecnológico de Las Américas (ITLA) y estoy orientando mi carrera al desarrollo backend. Me interesa entender cómo fluye la información, cómo se protege y cómo convertir requisitos en código mantenible.</p>
+          <p>Busco una oportunidad junior o pasantía donde pueda aportar, recibir revisión técnica y seguir creciendo con proyectos reales.</p>
+          <div class="about-facts">
+            <span>Santo Domingo, RD</span><span>Español nativo</span><span>Inglés básico</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contacto">
+      <div class="contact-panel reveal">
+        <p class="eyebrow">05 / contacto</p>
+        <h2>¿Construimos algo<br>que funcione bien?</h2>
+        <p>Estoy disponible para oportunidades junior, pasantías y proyectos donde pueda aportar desde backend y datos.</p>
+        <div class="contact-links">
+          <a href="mailto:kemil.e.m31@gmail.com">kemil.e.m31@gmail.com <span aria-hidden="true">↗</span></a>
+          <a href="https://www.linkedin.com/in/kemil-e-mart%C3%ADnez-paulino-251a2a352/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/kemilx" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          <a href="CV-Kemil.pdf" download>Descargar CV <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Kemil Martínez</span>
+    <span>Hecho con intención, C# en mente y café cerca.</span>
+    <a href="#inicio">Volver arriba ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
