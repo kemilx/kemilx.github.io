@@ -1,96 +1,62 @@
+# Kemil Martínez
 
-<h1 align="center">
-  <b>Hi, I'm Kemil Martinez</b>
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
-</h1>
+### Junior Backend Developer · C# / .NET
 
-## **About Me**
+Backend con estructura. Datos con propósito.
 
-* Software Development student at ITLA
-* Junior developer focused on backend development
-* Building projects with C#, .NET, SQL and relational databases
-* Interested in REST APIs, database connections and debugging
-* Currently improving my skills in backend architecture and clean project structure
-* Working on academic and personal projects
+Soy estudiante de Desarrollo de Software en el **Instituto Tecnológico de Las Américas (ITLA)**, en República Dominicana. Desarrollo proyectos personales y académicos con C#, .NET y bases de datos relacionales, con interés en APIs REST, arquitectura por capas y validación de reglas de negocio.
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> <b>Skills</b>
+**Busco una oportunidad junior o pasantía** donde pueda aportar, recibir revisión técnica y seguir aprendiendo con proyectos reales.
 
-<p align="center">
+[Ver portafolio](https://kemilx.github.io/) · [LinkedIn](https://www.linkedin.com/in/kemil-e-mart%C3%ADnez-paulino-251a2a352/) · [Ver CV](./K_Martinez_CV.pdf) · [Contactarme](mailto:kemil.e.m31@gmail.com)
 
-* **Languages**
+## En qué me enfoco
 
-  ![C#](https://img.shields.io/badge/C%23-%23239120.svg?style=for-the-badge\&logo=c-sharp\&logoColor=white)
-  ![SQL](https://img.shields.io/badge/SQL-%23025E8C.svg?style=for-the-badge\&logoColor=white)
+- **APIs y lógica de negocio:** organizar peticiones, reglas y respuestas con responsabilidades claras.
+- **Datos relacionales:** modelar entidades y trabajar con consultas SQL y persistencia.
+- **Código mantenible:** separar dominio, acceso a datos y presentación.
+- **Verificación:** depurar errores, probar escenarios y documentar los límites de cada proyecto.
 
-* **Frameworks**
+## Proyectos seleccionados
 
-  ![.NET](https://img.shields.io/badge/.NET-%23512BD4.svg?style=for-the-badge\&logo=dotnet\&logoColor=white)
+| Proyecto | Qué puedes explorar | Tecnologías |
+| --- | --- | --- |
+| **[Gateway de privacidad y telemetría](https://github.com/kemilx/Gateway)** | Gateway experimental que inspecciona respuestas JSON y aplica políticas de enmascaramiento, bloqueo u observación. Trabajo local con datos sintéticos. | C#, .NET 10, ASP.NET Core, YARP, OpenTelemetry, xUnit |
+| **[LibreriaWeb](https://github.com/kemilx/LibreriaWeb)** | Sistema académico de biblioteca para explorar la separación entre API, dominio, persistencia y presentación. | C#, .NET, EF Core, SQL Server |
+| **[SalesAnalytics](https://github.com/kemilx/SalesAnalytics)** | Solución académica de análisis de ventas con módulos de ETL, persistencia, API y presentación web. | C#, .NET, SQL, ETL |
 
-* **Databases**
+Más proyectos y detalles de mi proceso en el **[portafolio](https://kemilx.github.io/#proyectos)**.
 
-  ![MySQL](https://img.shields.io/badge/MySQL-%2300758F.svg?style=for-the-badge\&logo=mysql\&logoColor=white)
-  ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23336791.svg?style=for-the-badge\&logo=postgresql\&logoColor=white)
+## Stack
 
-* **Backend**
+| Área | Tecnologías y herramientas |
+| --- | --- |
+| Lenguajes | C#, SQL |
+| Backend | .NET, ASP.NET Core, APIs REST |
+| Persistencia y datos | Entity Framework Core, SQL Server, PostgreSQL, MySQL |
+| Desarrollo | Git, GitHub, Visual Studio, pgAdmin |
+| Aprendiendo | Docker, Jira |
 
-  ![REST API](https://img.shields.io/badge/REST%20API-%23000000.svg?style=for-the-badge\&logo=fastapi\&logoColor=white)
-  ![Debugging](https://img.shields.io/badge/Debugging-%234B5563.svg?style=for-the-badge\&logo=bugatti\&logoColor=white)
-  ![Database Connections](https://img.shields.io/badge/Database%20Connections-%23374151.svg?style=for-the-badge\&logoColor=white)
+## Sobre este repositorio
 
-* **Tools**
+Aquí está el código de mi portafolio personal, publicado con **GitHub Pages**. El sitio está construido con **HTML, CSS y JavaScript**, sin frameworks ni dependencias de compilación.
 
-  ![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge\&logo=git\&logoColor=white)
-  ![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge\&logo=github\&logoColor=white)
-  ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-%235C2D91.svg?style=for-the-badge\&logo=visual-studio\&logoColor=white)
-  ![pgAdmin](https://img.shields.io/badge/pgAdmin-%23336791.svg?style=for-the-badge\&logo=postgresql\&logoColor=white)
+```text
+index.html          Contenido y estructura
+styles.css          Estilos y diseño adaptable
+script.js           Menú móvil y año del pie de página
+favicon.svg         Icono del sitio
+K_Martinez_CV.pdf    Currículum
+README.md           Presentación y guía del repositorio
+```
 
-* **Currently Learning**
+Para verlo localmente, descarga o clona el repositorio y abre `index.html` en tu navegador. No necesitas instalar paquetes. Para consultar la versión publicada, visita **[kemilx.github.io](https://kemilx.github.io/)**.
 
-  ![Docker](https://img.shields.io/badge/Docker-Learning-%232496ED.svg?style=for-the-badge\&logo=docker\&logoColor=white)
-  ![Jira](https://img.shields.io/badge/Jira-Learning-%230052CC.svg?style=for-the-badge\&logo=jira\&logoColor=white)
+## Hablemos
 
-</p>
+Si buscas un perfil junior con interés en backend y datos, puedes encontrarme aquí:
 
-## **Main Focus**
-
-* Backend development with C# and .NET
-* REST API development
-* SQL and relational databases
-* Database connections
-* Debugging and application troubleshooting
-* Clean and organized project structure
-
-## <b>Let's Connect</b> <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width="80">
-
-<br>
-
-<div align="left">
-
-<ul>
-
-<li>
-<a href="https://www.linkedin.com/in/kemil-e-mart%C3%ADnez-paulino-251a2a352/" target="_blank">
-<img src="https://img.shields.io/badge/LinkedIn-Kemil%20Martinez-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" style="margin-bottom: 5px;"/>
-</a>
-</li>
-
-<li>
-<a href="mailto:kemil.e.m31@gmail.com" target="_blank">
-<img src="https://img.shields.io/badge/Gmail-kemil.e.m31%40gmail.com-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" style="margin-bottom: 5px;" />
-</a>
-</li>
-
-</ul>
-
-</div>
-
-<br>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br>
-<br>
-
-<div align="center">
-
-</div>
+- **LinkedIn:** [Kemil Ernesto Martínez Paulino](https://www.linkedin.com/in/kemil-e-mart%C3%ADnez-paulino-251a2a352/)
+- **Correo:** [kemil.e.m31@gmail.com](mailto:kemil.e.m31@gmail.com)
+- **GitHub:** [@kemilx](https://github.com/kemilx)
+- **Ubicación:** Santo Domingo, República Dominicana
