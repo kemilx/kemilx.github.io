@@ -7,7 +7,7 @@
 - Decisión: conservar HTML/CSS/JS estáticos; nombre y rol visibles, CV en inicio/contacto, diagramas explicativos basados en información existente, menos repetición, espaciado compacto y contenido/navegación utilizables sin JS.
 - Aceptación: CV existente accesible; identidad principal clara; proyectos con contexto concreto; cifras no repetidas; lectura móvil sin desbordamiento; contenido visible sin JS.
 - Plan: prueba de regresión en navegador local → cambios → comprobación escritorio/móvil/sin JS → inspección del diff.
-- Estado: implementación local COMPLETED; publicación en curso, autorizada en `origin/main`.
+- Estado: COMPLETED y publicado en `https://kemilx.github.io/`.
 - Archivos: `index.html` (identidad, CV, contexto de proyectos y cifras), `styles.css` (legibilidad, espaciado, diseño móvil/foco), `script.js` (navegación progresiva y eliminación del ocultamiento por observer), `tests/portfolio.test.mjs`.
 - Evidencia RED: la primera ejecución falló en identidad, acceso inicial al CV, superposición de tarjetas a 320 px y 17 bloques ocultos sin JS; menú existente PASS.
 - Corrección intermedia: faltaba espacio textual entre nombre y apellido separados por `<br>`; se añadió espacio semántico. Una reparación, sin cambio de hipótesis ni fallback.
@@ -21,4 +21,8 @@
 - Publicación: `git fetch origin` PASS; `HEAD...origin/main` = `0 0`; GitHub Pages confirmado mediante API: sitio `https://kemilx.github.io/`, fuente `main:/`, build legacy. `node --check script.js` PASS. Pruebas de navegador previas siguen válidas: no cambiaron implementación, tests ni dependencias.
 - Recuperación: revertir el commit de publicación mediante un nuevo commit si fuera necesario; no reescribir historial.
 - Incidencia de publicación: primer `git commit` detenido por identidad Git ausente; no hubo commit ni push. Autoría verificada en el último commit y cuenta autenticada `kemilx`; se reutiliza esa autoría mediante `git -c` solo para la operación, sin modificar configuración global/local.
-- Siguiente acción: commit/push de archivos revisados y CV; comprobar build y contenido servido por Pages.
+- Resultado de publicación: commit `1c0060be1a4567fbfb3c06ff36879132d47b6d94` enviado a `origin/main`; `gh run watch 43909221415 --exit-status` PASS (build y deploy). API Pages: `built`, commit coincidente, sin error.
+- Verificación pública: HTTP 200 para inicio, CSS, JS y CV. SHA-256 del PDF coincide byte por byte; HTML/CSS/JS coinciden tras normalizar CRLF/LF. Primera comparación binaria de texto falló únicamente por finales de línea (confirmado y corregido el método de comprobación, sin cambiar implementación).
+- Estado Git tras publicar implementación: limpio. Este cierre documental se publica por separado; no invalida las pruebas del código.
+- Avisos no bloqueantes del workflow administrado por GitHub: transición de Node 20 a 24 y de ubuntu-latest a Ubuntu 26. No se modificó configuración de infraestructura.
+- Siguiente acción: ninguna.
